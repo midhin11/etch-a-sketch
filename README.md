@@ -1,1 +1,1 @@
-# etch-a-sketch
+To build a web browser version of something between a sketchpad and an etch-a-sketch
