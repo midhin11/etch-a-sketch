@@ -1,24 +1,81 @@
+* {
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(166, 161, 161);
+}
+
+
+.header {
+    padding-left: 10px;
+    height: 80px;
+    background-color: #D32F2F;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
     width: 600px;
-    margin: 0 auto;
     height: 600px;
-    border: 2px solid black;
-    box-sizing: content-box;
+    border: 1px solid black;
+    /* box-sizing: content-box; */
+    box-shadow: 1.5px 3px 25px;
 }
-
 
 .boxes {
     height: 37.5px;
     width: 37.5px;
-    border: 1.2px solid black;
+    border: 1px solid black;
     display: inline-block;
     box-sizing: border-box;
+    background-color: white;
 }
 
-.forButton {
+.sketchpad {
+    font-size: 16px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.btn-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+button {
+    box-shadow: 0.4px 0.4px 5px;
+    font-weight: 500;
+    background-color: #D32F2F; /* Your desired button color */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 2px 5px;
+}
+
+button:hover {
+    background-color: #C62828; /* Darker color on hover */
+    transform: scale(1.08);
+}
+
+.footer {
+    background-color: #D32F2F;
+    color: rgb(211, 198, 198);
+    position: absolute;
+    bottom: 0.5%;
+    height: 50px;
+    font-weight: 500;
+    width: 99.2%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    align-items: center;
 }
