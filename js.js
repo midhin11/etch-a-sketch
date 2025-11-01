@@ -56,7 +56,3 @@ function gridGen(num) {
         })
     }
 }
-
-console.log(`${grid.clientHeight/num}px`    )
-
-// console.log(Math.floor(Math.random()*256)+1);
